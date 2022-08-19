@@ -45,3 +45,4 @@ Test: "It should convert user's input into an array"
 function createArray (userInputNumber) {
   return Array(userInputNumber).keys()
 };
+
