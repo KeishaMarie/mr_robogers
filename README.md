@@ -42,7 +42,35 @@ Expected Outcome: "Won't you be my neighbor?"
 
 Test: "It should convert user's input into an array"
 
-function createArray (userInputNumber) {
-  return Array(userInputNumber).keys()
+function createArray (userInput) {
+  keys = Array(userInput).keys();
+  return Array.from(keys);
 };
 
+Test:"It should interpret numbers into responses"
+Code:
+const number_string = 1.toString()
+messageOutput (number_string)
+Expected Outcome: "Beep!"
+
+function messageOutput (number) {
+  const number_string = number.toString();
+  for (let character of number_string) {
+    if (character === "1") {
+      return "Beep!";
+    } else if (character === "2") {
+      return "Boop!";
+    } else if (character === "3") {
+      return "Won't you be my neighbor?";
+    }
+      else return number_string;
+   }
+  };
+
+Test: "It should iterate through the array of user input"
+Code:
+x = createArray(5)
+for (let element of x) {
+  numberResponse = messageOutput (element)
+}
+Expected Outcome: 0 Beep! Boop! Won't you be my neighbor 4
