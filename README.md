@@ -51,7 +51,7 @@ SOFTWARE.
 ### Tests
 
 
-Describe: userInput.toString();<br><br>
+Describe: userInput.toString();<br>
 
 Test: "It should turn the number to a string"<br>
 Code:<br>
@@ -59,7 +59,7 @@ const userInput = 1<br>
 const userOutput = userInput.toString();<br>
 Expected Output = "1"<br>
 
-Description: sayBeep(), sayBoop(), sayNeighbor()<br><br>
+Description: sayBeep(), sayBoop(), sayNeighbor()<br>
 
 Test: "It should return the string 'Beep!' for numbers that start with the number 1"<br>
 Code:<br>
@@ -80,7 +80,7 @@ sayNeighbor(userInput3)<br>
 Expected Outcome: "Won't you be my neighbor?"<br><br>
 
 
-Description:function createArray (userInput)<br><br>
+Description:function createArray (userInput)<br>
 
 Test: "It should convert user's input into an array"<br>
 Code:<br>
@@ -109,7 +109,7 @@ Code:<br>
 messageOutput(13)<br>
 Expected Output: "Won't you be my neighbor?"<br><br>
 
-Description: newUserArray.push()<br><br>
+Description: newUserArray.push()<br>
 
 Test: "It should push userInput to the new array"<br>
 Code:<br>
@@ -126,7 +126,7 @@ userInput(5)<br>
 Expected Output: 0, Beep!, Boop!, Won't you be my neighbor, 4<br><br>
 
 
-Description: parseInt(userInput)<br><br>
+Description: parseInt(userInput)<br>
 
 Test: "It should only allow numbers to be entered into the box"<br>
 Code:<br>
