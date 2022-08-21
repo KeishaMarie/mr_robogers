@@ -118,7 +118,7 @@ newUserArray.push(elementResponses)<br>
 userInput(5)<br>
 Expected Output: 0,Beep!,Boop!,Won't you be my neighbor,4<br><br>
 
-Description: messageOutput + newArray.join(", ")<br><br>
+Description: messageOutput + newArray.join(", ")<br>
 
 Test: "It should make a space between elements."<br>
 Code:<br>
