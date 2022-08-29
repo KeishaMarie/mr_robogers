@@ -2,14 +2,9 @@
 // Business Logic
 
 function createArray (userInput) {
-  keys = Array(userInput).keys();
+  keys = Array(userInput +1).keys();
   return Array.from(keys);
 };
-
-// x = createArray()
-// for (let element of x) {
-//   numberResponse = messageOutput (element)
-// };
 
 function createMessageOutput (number) {
   const number_string = number.toString();
