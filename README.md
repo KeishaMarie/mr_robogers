@@ -12,7 +12,7 @@
 
 ## Description
 
-This web application will give you a message replacing certain elements of your message with Mr. Rodoger's message based on the number you input.
+This web application will give you a message replacing certain elements of your message with Mr. Roboger's message based on the number you input.
 
 ## Setup/Installation Requirements
 
